@@ -176,16 +176,35 @@ pub fn start() -> Result<(), JsValue> {
                     <div>
                         <h2>{"Yew"}</h2>
                         <ul>
-                            <li>{"Established"}</li>
+                            <li><strong>{"Established"}</strong></li>
                             <li>{"⭐ ~30.6k"}</li>
                             <li>{"Works like ReactJS"}</li>
                         </ul>
                     </div>
                     <div>
+                        <h2>{"Dioxus"}</h2>
+                        <ul>
+                            <li><strong>{"Growing Fast"}</strong></li>
+                            <li>{"⭐ ~20.5k"}</li>
+                            <li>{"Works like ReactJS"}</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ocx-columns">
+                    <div>
                         <h2>{"Leptos"}</h2>
                         <ul>
-                            <li>{"Fresh"}</li>
-                            <li>{"⭐ ~15.9k"}</li>
+                            <li><strong>{"Growing Fast"}</strong></li>
+                            <li>{"⭐ ~16k"}</li>
+                            <li>{"Works like SolidJS"}</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>{"Sycamore"}</h2>
+                        <ul>
+                            <li><strong>{"Fresh"}</strong></li>
+                            <li>{"⭐ ~2.8k"}</li>
                             <li>{"Works like SolidJS"}</li>
                         </ul>
                     </div>
