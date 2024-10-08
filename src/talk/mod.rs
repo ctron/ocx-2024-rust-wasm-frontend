@@ -292,7 +292,7 @@ Using Trunk for Development is convenient, but […]
             <Markdown content=r#"
 # On the pro side
 
-* Same language for backend and frontend
+* Same language for backend and frontend!
 * Look how fast it is!
 * Rust is just more fun!
 "# />
