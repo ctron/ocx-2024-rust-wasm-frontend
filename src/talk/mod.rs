@@ -372,13 +372,36 @@ Kind of like Electron.
         html!(
             <Markdown content=r#"
 # Links
+## Essentials
+### Book
+* <https://rustwasm.github.io/docs/book/>
 
+### Rust and WebAssembly Docs
 * <https://rustwasm.github.io/wasm-bindgen/>
+* <https://rustwasm.github.io/wasm-pack>
+"#/>
+        ),
+        html!(
+            <Markdown content=r#"
+# Links (cont.)
+### Trunk (Build, Bundle, Ship)
 * <https://trunkrs.dev>
+### Yew (Like React)
 * <https://yew.rs/docs/getting-started/introduction>
 * <https://github.com/jetli/awesome-yew>
+### Leptos (Like SolidJS)
+* <https://book.leptos.dev/> // Introduction
 * <https://github.com/leptos-rs/awesome-leptos>
+"#/>
+        ),
+        html!(
+            <Markdown content=r#"
+# Links (cont.)
+### Tauri (Desktop / Mobile Apps)
+* <https://github.com/tauri-apps/create-tauri-app>
 * <https://github.com/tauri-apps/awesome-tauri>
+### Bevy (Game Engine)
+* <https://github.com/bevyengine/bevy>
 "#/>
         ),
         html!(
