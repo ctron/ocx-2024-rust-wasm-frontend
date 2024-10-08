@@ -186,7 +186,7 @@ pub fn start() -> Result<(), JsValue> {
                         <ul>
                             <li>{"Fresh"}</li>
                             <li>{"⭐ ~15.9k"}</li>
-                            <li>{"Works like ReactJS"}</li>
+                            <li>{"Works like SolidJS"}</li>
                         </ul>
                     </div>
                 </div>
