@@ -1,0 +1,100 @@
+@import "fonts";
+@import "base";
+
+.ocx-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ocx-columns > * {
+  padding-right: 1em;
+}
+
+.ocx-footnote {
+  padding-top: 2em;
+  opacity: 50%;
+  font-size: smaller;
+}
+
+.ocx-slide {
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+  padding-top: 20vh;
+}
+
+.ocx-embed {
+  border: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.ocx-title {
+  @extend .ocx-slide;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.ocx-section {
+  @extend .ocx-slide;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.ocx-default {
+  @extend .ocx-slide;
+}
+
+.ocx-default.ocx-max {
+  @extend .ocx-slide;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.ocx-default pre {
+  padding: 0.75em 1em;
+  border-radius: .5em;
+  overflow: scroll;
+}
+
+.ocx-default code {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 500;
+}
+
+.ocx-image {
+  @extend .ocx-slide;
+
+  padding: 2em;
+}
+
+.ocx-image > h1 {
+  position: absolute;
+  padding-left: 10vw;
+}
+
+.ocx-image img {
+  width: 100%;
+  object-fit: scale-down;
+  object-position: center;
+  height: 80vh;
+}
+
