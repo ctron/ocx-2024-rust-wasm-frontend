@@ -1,5 +1,6 @@
 [package]
 name = "ocx-rust-wasm"
+description = "Rusty Frontends!"
 version = "0.1.0"
 edition = "2021"
 
