@@ -178,7 +178,8 @@ pub fn start() -> Result<(), JsValue> {
                         <ul>
                             <li><strong>{"Established"}</strong></li>
                             <li>{"⭐ ~30.6k"}</li>
-                            <li>{"Works like ReactJS"}</li>
+                            <li>{"Uses VDOM"}</li>
+                            <li>{"Inspired by React"}</li>
                         </ul>
                     </div>
                     <div>
@@ -186,29 +187,21 @@ pub fn start() -> Result<(), JsValue> {
                         <ul>
                             <li><strong>{"Growing Fast"}</strong></li>
                             <li>{"⭐ ~20.5k"}</li>
-                            <li>{"Works like ReactJS"}</li>
+                            <li>{"Uses VDOM*"}</li>
+                            <li>{"Faster VDOM"}</li>
                         </ul>
                     </div>
-                </div>
-
-                <div class="ocx-columns">
                     <div>
                         <h2>{"Leptos"}</h2>
                         <ul>
                             <li><strong>{"Growing Fast"}</strong></li>
                             <li>{"⭐ ~16k"}</li>
-                            <li>{"Works like SolidJS"}</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2>{"Sycamore"}</h2>
-                        <ul>
-                            <li><strong>{"Fresh"}</strong></li>
-                            <li>{"⭐ ~2.8k"}</li>
-                            <li>{"Works like SolidJS"}</li>
+                            <li>{"No VDOM"}</li>
+                            <li>{"Inspired by SolidJS"}</li>
                         </ul>
                     </div>
                 </div>
+
             </Normal>
         ),
         html!(
@@ -326,6 +319,9 @@ Using Trunk for Development is convenient, but […]
 "# />
         ),
         html!(
+            <Image src="static/benchmarks1.png"/>
+        ),
+        html!(
             <Image src="static/speed1.png"/>
         ),
         html!(
@@ -386,10 +382,10 @@ Kind of like Electron.
 # Links (cont.)
 ### Trunk (Build, Bundle, Ship)
 * <https://trunkrs.dev>
-### Yew (Like React)
+### Yew (Uses VDOM)
 * <https://yew.rs/docs/getting-started/introduction>
 * <https://github.com/jetli/awesome-yew>
-### Leptos (Like SolidJS)
+### Leptos (No VDOM)
 * <https://book.leptos.dev/> // Introduction
 * <https://github.com/leptos-rs/awesome-leptos>
 "#/>
