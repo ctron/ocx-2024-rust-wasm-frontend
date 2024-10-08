@@ -248,11 +248,10 @@ Also see: <https://yew.rs/docs/getting-started/introduction>
 
 * > The Largest E-Sports Event In The World!
 * > I wanted a fairly sophisticated PWA including accounts, state management, QR code scanning, picture taking, file upload, emails, printing, and ...
-* > After 7 (or so) days of creation I was ready host for production.
 * > I like my development and production environments to have essentially no differences.
 Using Trunk for Development is convenient, but […]
 
-– <https://blog.danielc.us>
+– <https://danielc.us/rust-wasm-evo-2024>
 
 "#/>
         ),
