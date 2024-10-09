@@ -43,7 +43,7 @@ jobs:
           node-version: '20'
 
       - name: Build page
-        run: trunk build --public-url /ocx-2024-rust-wasm-frontend
+        run: trunk build --public-url /ocx-2024-rust-wasm-frontend --release
 
       - name: Create 404.html
         run: |
