@@ -333,11 +333,14 @@ where
         ),
         html!(
             <Markdown content=r#"
-# Performance
+# Performance (ElementX)
 
-* Comparison (TODO)
-* Element X, using Rust
-* And, …
+> **Then to achieve absolute peak performance, the core of Element X is written in Rust**: powered by matrix-rust-sdk.  Rust provides zero cost abstractions, meaning that higher-level programming abstractions do not incur a performance penalty: the app’s engine runs as fast as it possibly can.
+
+> Rust is also the key to Element X’s incredible stability. **By using a single SDK for all the heavy lifting, shared between iOS and Android,** we can ensure that bug fixes on one platform immediately benefit the other - and meanwhile Rust’s intrinsic memory safety, type safety and concurrency safety help ensure the engine is as robust as possible.
+
+– <https://element.io/blog/element-x-ignition/>
+
 "# />
         ),
         html!(
@@ -397,6 +400,10 @@ Kind of like Electron.
 ### Rust and WebAssembly Docs
 * <https://rustwasm.github.io/wasm-bindgen/>
 * <https://rustwasm.github.io/wasm-pack>
+
+### This presentation
+* <https://ctron.github.io/ocx-2024-rust-wasm-frontend/)>
+
 "#/>
         ),
         html!(
