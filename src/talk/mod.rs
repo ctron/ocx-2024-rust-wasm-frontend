@@ -10,6 +10,9 @@ pub fn slides() -> Vec<Html> {
             <Markdown content={include_str!("who_am_i.md")} />
         ),
         html!(
+            <Markdown content={include_str!("shout_out.md")} />
+        ),
+        html!(
             <Normal title="What to expect?">
                 <ul>
                     <li>{"What is WebAssembly?"}</li>
@@ -263,10 +266,29 @@ Also see: <https://yew.rs/docs/getting-started/introduction>
 * > I like my development and production environments to have essentially no differences.
 Using Trunk for Development is convenient, but […]
 
-– <https://danielc.us/rust-wasm-evo-2024>
+– <https://blog.danielc.us/rust-wasm-evo-2024>
 
 "#/>
         ),
+        html!(<Markdown content=r#"
+
+# Leptos example
+
+```rust
+#[component]
+pub fn Landing<F>(landing_view_toggle: F) -> impl IntoView
+where
+    F: Fn(MouseEvent) + 'static,
+{
+    view! {
+        <Box class="landing">
+            <button on:click:undelegated=landing_view_toggle>"Chat!"</button>
+        </Box>
+    }
+}
+```
+
+"#/>),
         html!(
             <Section title="Caveats"/>
         ),
@@ -368,7 +390,7 @@ Kind of like Electron.
         html!(
             <Markdown content=r#"
 # Links
-## Essentials
+
 ### Book
 * <https://rustwasm.github.io/docs/book/>
 
@@ -380,14 +402,29 @@ Kind of like Electron.
         html!(
             <Markdown content=r#"
 # Links (cont.)
+
+<div class="ocx-columns">
+
+<div>
+
 ### Trunk (Build, Bundle, Ship)
 * <https://trunkrs.dev>
+### wasm-pack
+* <https://github.com/rustwasm/wasm-pack>
+
+</div><div>
+
 ### Yew (Uses VDOM)
 * <https://yew.rs/docs/getting-started/introduction>
 * <https://github.com/jetli/awesome-yew>
 ### Leptos (No VDOM)
 * <https://book.leptos.dev/> // Introduction
 * <https://github.com/leptos-rs/awesome-leptos>
+
+</div>
+
+</div>
+
 "#/>
         ),
         html!(
@@ -401,7 +438,7 @@ Kind of like Electron.
 "#/>
         ),
         html!(
-            <Section title="Questions?"/>
+            <Section title="🗨️ Questions?"/>
         ),
         html!(
             <Section title="❤️ Thank you!"/>
