@@ -1,5 +1,6 @@
 @import "fonts";
 @import "base";
+@import "panic";
 
 .ocx-columns {
   display: flex;
@@ -37,7 +38,7 @@
 
 .ocx-title {
   @extend .ocx-slide;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
