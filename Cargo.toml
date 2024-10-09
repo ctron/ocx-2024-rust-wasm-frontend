@@ -21,3 +21,9 @@ features = [
     "console",
 ]
 
+# release profile settings to reduce the final binary size
+[profile.release]
+panic = 'abort'
+codegen-units = 1
+opt-level = 's'
+lto = true
