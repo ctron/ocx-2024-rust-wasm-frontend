@@ -402,7 +402,7 @@ Kind of like Electron.
 * <https://rustwasm.github.io/wasm-pack>
 
 ### This presentation
-* <https://ctron.github.io/ocx-2024-rust-wasm-frontend/)>
+* <https://ctron.github.io/ocx-2024-rust-wasm-frontend/>
 
 "#/>
         ),
