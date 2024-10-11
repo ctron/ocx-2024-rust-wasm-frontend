@@ -8,7 +8,6 @@ pub struct SlidesProperties {
 
 #[function_component(Slides)]
 pub fn slide(props: &SlidesProperties) -> Html {
-    //let current = use_state(|| 0usize);
     let current = use_page_state(|| 0usize);
     let slide = use_memo(
         (*current, props.slides.clone()),
