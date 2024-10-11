@@ -57,16 +57,16 @@ pub fn slides() -> Vec<Html> {
             <Image src="static/languages.png" />
         ),
         html!(
-            <Image src="static/drawing1.svg" title="In the browser" />
+            <Image src="static/drawing1.webp" title="In the browser" />
         ),
         html!(
             <Section title="In the context of Rust"/>
         ),
         html!(
-            <Image src="static/drawing2.svg" title="Cargo build"/>
+            <Image src="static/drawing2.webp" title="Cargo build"/>
         ),
         html!(
-            <Image src="static/drawing3.svg" />
+            <Image src="static/drawing3.webp" />
         ),
         html!(
             <Markdown content=r#"
@@ -112,13 +112,13 @@ extern "C" { fn snippet_test(); }
 "## />
         ),
         html!(
-            <Image src="static/drawing4.svg" />
+            <Image src="static/drawing4.webp" />
         ),
         html!(
-            <Image src="static/drawing5.svg" />
+            <Image src="static/drawing5.webp" />
         ),
         html!(
-            <Image src="static/drawing6.svg" />
+            <Image src="static/drawing6.webp" />
         ),
         html!(
             <Markdown content=r#"
