@@ -3,9 +3,6 @@
 @import "panic";
 
 .ocx-columns {
-  // display: grid;
-  // grid-auto-flow: column;
-  // grid-auto-columns: 1fr;
   gap: 1em;
   display: flex;
   justify-content: space-around;
@@ -35,12 +32,12 @@
   padding-left: 10vw;
   padding-right: 10vw;
 
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 
-@media (min-width: 35em) {
+@media (min-device-width: 1600px) {
   .ocx-slide {
-    padding-top: 10vh;
+    padding-top: 20vh;
   }
 }
 

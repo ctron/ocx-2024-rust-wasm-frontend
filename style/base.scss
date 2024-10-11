@@ -10,14 +10,8 @@ html, body, main {
 }
 
 body {
-  font-size: 30pt;
+  font-size: 20pt;
   font-family: "Noto Sans", sans-serif;
-}
-
-@media (min-width: 35em) {
-  body {
-    font-size: 25pt;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +20,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 60pt;
+  font-size: 40pt;
+}
+
+@media (min-device-width: 1600px) {
+  body {
+    font-size: 30pt;
+  }
+  h1 {
+    font-size: 60pt;
+  }
 }
 
 code {
