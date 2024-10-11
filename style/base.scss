@@ -23,7 +23,16 @@ h1 {
   font-size: 40pt;
 }
 
-@media (min-device-width: 1600px) {
+@media (min-device-width: 1200px) {
+  body {
+    font-size: 25pt;
+  }
+  h1 {
+    font-size: 50pt;
+  }
+}
+
+@media (min-device-width: 2000px) {
   body {
     font-size: 30pt;
   }
