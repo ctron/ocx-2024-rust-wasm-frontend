@@ -32,13 +32,16 @@ pub fn slide(props: &SlidesProperties) -> Html {
                     current.set(*current + 1)
                 }
             }
-            "Home" | "Escape" | "f" => {
+            "Home" | "Escape" | "h" => {
                 current.set(0);
             }
             "End" | "e" => {
                 if num_slides > 1 {
                     current.set(num_slides - 1);
                 }
+            }
+            "." | "f" => {
+                let _ = gloo_utils::document_element().request_fullscreen();
             }
             _ => {}
         }

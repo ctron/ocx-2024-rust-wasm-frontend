@@ -6,7 +6,7 @@ edition = "2021"
 
 [dependencies]
 browser-panic-hook = "0.2.0"
-comrak = "0.28"
+comrak = "0.29"
 console_log = "1"
 gloo-utils = "0.2"
 log = "0.4.22"
