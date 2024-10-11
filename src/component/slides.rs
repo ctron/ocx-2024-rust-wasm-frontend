@@ -33,8 +33,13 @@ pub fn slide(props: &SlidesProperties) -> Html {
                     current.set(*current + 1)
                 }
             }
-            "Escape" | "f" => {
+            "Home" | "Escape" | "f" => {
                 current.set(0);
+            }
+            "End" | "e" => {
+                if num_slides > 1 {
+                    current.set(num_slides - 1);
+                }
             }
             _ => {}
         }
