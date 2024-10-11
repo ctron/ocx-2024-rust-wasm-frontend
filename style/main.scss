@@ -3,12 +3,26 @@
 @import "panic";
 
 .ocx-columns {
+  // display: grid;
+  // grid-auto-flow: column;
+  // grid-auto-columns: 1fr;
+  gap: 1em;
   display: flex;
   justify-content: space-around;
 }
 
 .ocx-columns > * {
-  padding-right: 1em;
+  flex: 1;
+}
+
+.ocx-column-half {
+  flex: 0.5;
+}
+
+.ocx-columns img {
+  width: 100%;
+  object-fit: scale-down;
+  object-position: center;
 }
 
 .ocx-footnote {
@@ -22,6 +36,12 @@
   padding-right: 10vw;
 
   padding-top: 20vh;
+}
+
+@media (min-width: 35em) {
+  .ocx-slide {
+    padding-top: 10vh;
+  }
 }
 
 .ocx-embed {

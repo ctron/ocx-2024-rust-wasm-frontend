@@ -15,7 +15,7 @@
 
 </div>
 
-<div>
+<div class="ocx-column-half">
 
 ![Me](static/me3.jpg)
 
