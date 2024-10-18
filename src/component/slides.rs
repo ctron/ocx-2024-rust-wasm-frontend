@@ -13,7 +13,7 @@ pub fn slide(props: &SlidesProperties) -> Html {
         (*current, props.slides.clone()),
         |(current, children)| match children.get(*current) {
             Some(slide) => slide.clone(),
-            None => html!("No content").into(),
+            None => html!("No content"),
         },
     );
 
