@@ -3,6 +3,7 @@ name = "ocx-rust-wasm"
 description = "Rusty Frontends!"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
 
 [dependencies]
 browser-panic-hook = "0.2.0"
