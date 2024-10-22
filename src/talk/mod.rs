@@ -132,6 +132,33 @@ extern "C" { fn snippet_test(); }
 * Re-use existing tools and dependencies
 * Start simple, allow for complex configurations
 
+Available on: crates.io, GitHub releases, Fedora, Brew, NixOS, ...
+"#/>
+        ),
+        html!(
+            <Markdown content=r#"
+# Trunk (cont.)
+
+* Orchestrate the build
+* Downloads required tools (except when using `--offline`)
+* Asset processing: SASS, Tailwind
+* Post-processing: minification, PNG optimization, SRI, copying
+* Customized initialization (e.g. loading screen)
+
+And more!
+
+"#/>
+        ),
+        html!(
+            <Markdown content=r#"
+# Trunk: 0.21.0 and 0.21.1
+
+🎉 New and noteworthy:
+
+* Cargo profile support
+* OS specific hook overrides
+* Revamped configuration system: YAML, JSON, Cargo.toml
+
 "#/>
         ),
         html!(
@@ -444,9 +471,9 @@ Kind of like Electron.
 * <https://github.com/bevyengine/bevy>
 "#/>
         ),
-        html!(
+        /*        html!(
             <Section title="🗨️ Questions?"/>
-        ),
+        ),*/
         html!(
             <Section title="❤️ Thank you!"/>
         ),

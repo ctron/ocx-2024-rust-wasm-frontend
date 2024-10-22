@@ -11,6 +11,7 @@
 * Senior Principal Software Engineer @ Red Hat
 * ~~Working on cloud scale IoT~~
 * Working on Software Supply Chain Security
+* Current maintainer of Trunk
 * Rust fanboy
 
 </div>
