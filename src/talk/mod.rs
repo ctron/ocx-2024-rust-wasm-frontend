@@ -139,7 +139,6 @@ Available on: crates.io, GitHub releases, Fedora, Brew, NixOS, ...
             <Markdown content=r#"
 # Trunk (cont.)
 
-* Orchestrate the build
 * Downloads required tools (except when using `--offline`)
 * Asset processing: SASS, Tailwind
 * Post-processing: minification, PNG optimization, SRI, copying
@@ -471,9 +470,9 @@ Kind of like Electron.
 * <https://github.com/bevyengine/bevy>
 "#/>
         ),
-        /*        html!(
+        html!(
             <Section title="🗨️ Questions?"/>
-        ),*/
+        ),
         html!(
             <Section title="❤️ Thank you!"/>
         ),
